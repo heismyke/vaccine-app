@@ -3,6 +3,7 @@ import Blog from './Blog/Blog'
 import Header from './components/Header'
 import HowItWorks from './components/How_It_Works'
 import WhyChooseUs from './components/Why_Choose_Us'
+import WhyWeGetVaccinated from './components/Why_We_Get_Vaccinated'
 import Features from './Features/Features'
 import DownloadApp from './shared/DownloadApp'
 import Footer from './shared/Footer'
@@ -19,6 +20,7 @@ function App() {
               <Header />
               <WhyChooseUs />
               <HowItWorks />
+              <WhyWeGetVaccinated />
               <DownloadApp />
               <Footer />
             </>

@@ -1,13 +1,13 @@
-import React from 'react'
-import WhyChooseUsData from '../Data/Home/Why_Choose_Us'
-import SharedContainer from '../shared/SharedContainer'
+import React from "react";
+import WhyChooseUsData from "../Data/Home/Why_Choose_Us";
+import SharedContainer from "../shared/SharedContainer";
+import ContentWithHeadingAndSubheading from "../shared/SharedContainer/ContentWithHeadingAndSubheading";
+import HeadingWithSubheading from "../shared/SharedContainer/HeadingWithSubheading";
 
 function WhyChooseUs() {
   return (
     <SharedContainer variant="default">
-      <h1 className="font-semibold text-[25px] text-[#434343] xl:text-[41.11px] xl:pb-10">
-        Why Choose us?
-      </h1>
+      <HeadingWithSubheading heading="Why choose us?" />
       <div className="grid  gap-5  xl:gap-20  my-5 md:grid-cols-2 lg:grid-cols-3">
         {WhyChooseUsData.map((WhyChooseUs, index) => (
           <div
@@ -25,18 +25,15 @@ function WhyChooseUs() {
               />
             </div>
             {/*  text */}
-            <h1 className="font-semibold text-[17.9px] text-[#434343] xl:text-[20.37px]">
-              {WhyChooseUs.text}
-            </h1>
-            <p className="font-normal   text-[11.98px] text-[#434343] xl:text-[15.32px] leading-[16.84px] xl:leading-[30.54px]">
-              {/* description */}
-              {WhyChooseUs.description}
-            </p>
+            <ContentWithHeadingAndSubheading
+              heading={WhyChooseUs.text}
+              paragraph={WhyChooseUs.description}
+            />
           </div>
         ))}
       </div>
     </SharedContainer>
-  )
+  );
 }
 
-export default WhyChooseUs
+export default WhyChooseUs;
