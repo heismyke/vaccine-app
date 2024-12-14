@@ -9,6 +9,7 @@ import DownloadApp from "./shared/DownloadApp";
 import Footer from "./shared/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FeaturesContextProvider from "./context/FeaturesContextProvider";
+import FeaturesPagination from "./components/FeaturesPagination";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
                 <Header />
                 <WhyChooseUs />
                 <HowItWorks />
+                <FeaturesPagination />
                 <WhyWeGetVaccinated />
                 <DownloadApp />
                 <Footer />

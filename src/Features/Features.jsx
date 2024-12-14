@@ -1,13 +1,19 @@
-import React, { useContext } from "react";
+import React, { useContext, useEffect } from "react";
 import Navbar from "../shared/Navbar";
 import DownloadApp from "../shared/DownloadApp";
 import Footer from "../shared/Footer";
 import SharedContainer from "../shared/SharedContainer";
 import FeaturesContext from "../context/FeaturesContext";
 import ContentWithHeadingAndSubheading from "../shared/SharedContainer/ContentWithHeadingAndSubheading";
+import { useLocation } from "react-router-dom";
 
 function Features() {
   const { features } = useContext(FeaturesContext);
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
   return (
     <>
       <Navbar />

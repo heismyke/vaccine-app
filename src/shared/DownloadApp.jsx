@@ -1,6 +1,7 @@
-import React from 'react'
-import { IoIosArrowDown } from 'react-icons/io'
-import Mobile from '../assets/home/mobile/Services.png'
+import React from "react";
+import { IoIosArrowDown } from "react-icons/io";
+import Mobile from "../assets/home/mobile/Services.png";
+import Button from "./Button";
 
 function DownloadApp() {
   return (
@@ -10,12 +11,12 @@ function DownloadApp() {
           Get the app now and give your child the best healthcare today!
         </h1>
         <p className="text-[16px] leading-[26.3px] font-normal md:text-[18px] lg:leading-[30.54px] text-[#434343]">
-          It only takes few minutes to start enjoying this benefits, Download vaccinne app from
-          playtore and Apple store from the button below
+          It only takes few minutes to start enjoying this benefits, Download
+          vaccinne app from playtore and Apple store from the button below
         </p>
-        <button className="bg-[#1E4EA2] p-3 flex items-center  gap-4 rounded-xl text-white  min-h-[34.52px]">
+        <Button>
           Download App <IoIosArrowDown />
-        </button>
+        </Button>
       </div>
       <div className="w-[100%] p-5 flex items-center justify-center mt-[70px]">
         <img
@@ -25,7 +26,7 @@ function DownloadApp() {
         />
       </div>
     </div>
-  )
+  );
 }
 
-export default DownloadApp
+export default DownloadApp;
