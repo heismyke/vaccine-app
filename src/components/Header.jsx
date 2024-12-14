@@ -16,7 +16,11 @@ function Header() {
             Your virtual database for Centralized medication and vaccination
             platform
           </p>
-          <Button color={"bg-white text-blue-400"} font={"font-semibold"}>
+          <Button
+            color={"bg-white"}
+            colorFont={"text-bg-[#1E4EA2]"}
+            font={"font-semibold"}
+          >
             Download App
             <IoIosArrowDown />{" "}
           </Button>
