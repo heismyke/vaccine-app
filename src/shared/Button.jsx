@@ -1,6 +1,9 @@
-const Button = ({ children }) => {
+import React from "react";
+const Button = ({ children, color, font }) => {
   return (
-    <button className="bg-[#1E4EA2] p-3 flex items-center  gap-4 rounded-xl text-white  min-h-[34.52px]">
+    <button
+      className={`${color} ${font} p-3 flex items-center  gap-4 round-xl text-white rounded-xl  min-h-[34.52px]`}
+    >
       {children}
     </button>
   );
