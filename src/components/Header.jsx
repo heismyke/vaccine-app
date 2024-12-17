@@ -5,10 +5,10 @@ import Navbar from "../shared/Navbar";
 
 function Header() {
   return (
-    <header className="w-[100%] h-[1015px] bg-[#1E4EA2]">
+    <header className="w-[100%]  bg-[#1E4EA2]">
       <Navbar iconColor="text-white" logoColor="text-white" />
-      <div className="p-5 mt-8">
-        <div className="">
+      <div className=" flex justify-between flex-col gap-20 mt-8">
+        <div className="p-5">
           <h1 className="text-white font-semibold leading-[45px] text-[30px]">
             Tracking your vaccines and medications just got easier
           </h1>
@@ -16,18 +16,18 @@ function Header() {
             Your virtual database for Centralized medication and vaccination
             platform
           </p>
-          <button className="bg-white text-[#1E4EA2]">
-            Download App
-            <IoIosArrowDown />
-          </button>
-          {/* <Button
-            color={"bg-white"}
-            colorFont={"text-bg-[#1E4EA2]"}
-            font={"font-semibold"}
-          >
+
+          <Button color={"bg-white text-[#1E4EA2]"} font={"font-semibold"}>
             Download App
             <IoIosArrowDown />{" "}
-          </Button> */}
+          </Button>
+        </div>
+        <div className="w-full  bg-[#2362AB]  rounded-tl-[100px]">
+          <img
+            src="../assets/header_image.png"
+            className="h-[485px] relative -left-[25px] object-cover"
+            alt="Header Image thumbnail"
+          />
         </div>
       </div>
     </header>
