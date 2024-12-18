@@ -39,7 +39,7 @@ const FeaturesPagination = () => {
       ))}
       <div className="flex items-center justify-center">
         <Link to="/features">
-          <Button color={"bg-[#1E4EA2]"}>View all features</Button>
+          <Button color={"bg-[#1E4EA2] text-white"}>View all features</Button>
         </Link>
       </div>
     </SharedContainer>

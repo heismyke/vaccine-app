@@ -11,52 +11,57 @@ import Footer from "./shared/Footer";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import FeaturesContextProvider from "./context/FeaturesContextProvider";
 import FeaturesPagination from "./components/FeaturesPagination";
+import WhatOurUsersSay from "./components/What_Our_Users_Say";
+import WhatOurUsersSayContextProvider from "./context/WhatOurUsersSayContextProvider";
 
 function App() {
   return (
     <FeaturesContextProvider>
-      <BrowserRouter>
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <Header />
-                <WhyChooseUs />
-                <HowItWorks />
-                <FeaturesPagination />
-                <WhyWeGetVaccinated />
-                <DownloadApp />
-                <Footer />
-              </>
-            }
-          />
-          <Route
-            path="/about"
-            element={
-              <>
-                <About />
-              </>
-            }
-          />
-          <Route
-            path="/features"
-            element={
-              <>
-                <Features />
-              </>
-            }
-          />
-          <Route
-            path="/blog"
-            element={
-              <>
-                <Blog />
-              </>
-            }
-          />
-        </Routes>
-      </BrowserRouter>
+      <WhatOurUsersSayContextProvider>
+        <BrowserRouter>
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <Header />
+                  <WhyChooseUs />
+                  <HowItWorks />
+                  <FeaturesPagination />
+                  <WhyWeGetVaccinated />
+                  <WhatOurUsersSay />
+                  <DownloadApp />
+                  <Footer />
+                </>
+              }
+            />
+            <Route
+              path="/about"
+              element={
+                <>
+                  <About />
+                </>
+              }
+            />
+            <Route
+              path="/features"
+              element={
+                <>
+                  <Features />
+                </>
+              }
+            />
+            <Route
+              path="/blog"
+              element={
+                <>
+                  <Blog />
+                </>
+              }
+            />
+          </Routes>
+        </BrowserRouter>
+      </WhatOurUsersSayContextProvider>
     </FeaturesContextProvider>
   );
 }

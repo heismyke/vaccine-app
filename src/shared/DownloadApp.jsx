@@ -14,8 +14,7 @@ function DownloadApp() {
           It only takes few minutes to start enjoying this benefits, Download
           vaccinne app from playtore and Apple store from the button below
         </p>
-
-        <Button color={"bg-[#1E4EA2]"}>
+        <Button color={"bg-[#1E4EA2] text-white"}>
           Download App <IoIosArrowDown />
         </Button>
       </div>
