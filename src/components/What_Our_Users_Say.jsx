@@ -10,6 +10,7 @@ import {
 } from "@/components/ui/carousel";
 import { useContext } from "react";
 import WhatOurUsersSayContext from "../context/WhatOurUsersSayContext";
+import { Link } from "react-router-dom";
 
 const WhatOurUsersSay = () => {
   const { reviews } = useContext(WhatOurUsersSayContext);
@@ -28,12 +29,18 @@ const WhatOurUsersSay = () => {
           {reviews.map((review, index) => (
             <React.Fragment key={index}>
               <CarouselItem className="basis-1/1 w-full p-10 rounded-3xl md:basis-1/2  bg-[#1E4EA2] text-white">
-                <p className="font-normal text-[16px]">
+                <h1 className="font-semibold text-[20px]">
+                  Available on the playstore
+                </h1>
+                <p className="font-normal text-[16px] py-8">
                   {review.review}
                   <span className="font-semibold">
                     -{review.author}, {review.date}
                   </span>
                 </p>
+                <Link to="">
+                  <h1 className="font-semibold">Download Now </h1>
+                </Link>
               </CarouselItem>
             </React.Fragment>
           ))}
