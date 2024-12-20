@@ -23,7 +23,7 @@ function Features() {
         <HeadingWithSubheading
           className="flex flex-col items-center justify-center text-center"
           textAlignment="text-center"
-          heading="Features designed specifically for you"
+          heading="Features"
           subheading="Vaccinne App is here to aleviate your worries with our upto date vaccine tracking software.  We record all the required vaccines and send series of remiders to ensure you dont miss any dosage."
         />
       </Banner>
