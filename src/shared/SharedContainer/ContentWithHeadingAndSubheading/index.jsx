@@ -1,9 +1,9 @@
-import React from "react";
-import PropTypes from "prop-types";
+import React from 'react'
+import PropTypes from 'prop-types'
 
-const ContentWithHeadingAndSubheading = ({ heading, paragraph }) => {
+const ContentWithHeadingAndSubheading = ({ heading, paragraph, className }) => {
   return (
-    <div>
+    <div className={className}>
       <h1 className="text-[#545656] text-[20px]  md:text-[16px] lg:text-[22px] font-semibold py-5">
         {heading}
       </h1>
@@ -11,12 +11,13 @@ const ContentWithHeadingAndSubheading = ({ heading, paragraph }) => {
         {paragraph}
       </p>
     </div>
-  );
-};
+  )
+}
 
 ContentWithHeadingAndSubheading.propTypes = {
   heading: PropTypes.string.isRequired,
   paragraph: PropTypes.string.isRequired,
-};
+  className: PropTypes.string,
+}
 
-export default ContentWithHeadingAndSubheading;
+export default ContentWithHeadingAndSubheading

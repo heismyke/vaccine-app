@@ -21,10 +21,16 @@ function Features() {
       <Navbar />
       <Banner>
         <HeadingWithSubheading
-          className="flex flex-col items-center justify-center text-center"
+          className="flex flex-col items-center lg:hidden justify-center text-center"
           textAlignment="text-center"
           heading="Features"
-          subheading="Vaccinne App is here to aleviate your worries with our upto date vaccine tracking software.  We record all the required vaccines and send series of remiders to ensure you dont miss any dosage."
+          subheading="Vaccine App is here to elevate your worries with our upto date vaccine tracking software.  We record all the required vaccines and send series of reminders to ensure you dont miss any dosage."
+        />
+        <HeadingWithSubheading
+          className="hidden flex-col items-center lg:flex justify-center text-center"
+          textAlignment="text-center"
+          heading="Features designed specifically for you"
+          subheading="Are you wondering how to track all the needed vaccines for your kids without missing anyone? Vaccine App is here to elevate your worries with our upto date vaccine tracking software.  We record all the required vaccines and send series of reminders to ensure you dont miss any dosage."
         />
       </Banner>
       <SharedContainer>
