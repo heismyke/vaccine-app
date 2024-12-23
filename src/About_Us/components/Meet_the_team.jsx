@@ -12,7 +12,7 @@ import {
 import Teams from '../../Data/About/Meet_The_Team'
 export default function MeetTheTeam() {
   return (
-    <div className="bg-[#EFF5F6] mb-32">
+    <div className="bg-[#EFF5F6]">
       <SharedContainer variant="default">
         <ContentWithHeadingAndSubheading
           className="flex items-center justify-center flex-col"

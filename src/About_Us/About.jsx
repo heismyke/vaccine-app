@@ -8,11 +8,11 @@ import SharedContainer from '../shared/SharedContainer'
 import Paragraph from '../shared/Paragraph'
 import MeetTheTeam from './components/Meet_the_team'
 
-function About() {
+export default function About() {
   return (
     <div>
       <Navbar iconColor="text-black" logoColor="text-black" />
-      <Banner>
+      <Banner backgroundColor={'bg-[#EFF5F6]'}>
         <HeadingWithSubheading
           className="flex flex-col items-center justify-center text-center"
           textAlignment="text-center"
@@ -47,11 +47,6 @@ function About() {
           support and love.
         </Paragraph>
       </SharedContainer>
-      <MeetTheTeam />
-      <DownloadApp />
-      <Footer />
     </div>
   )
 }
-
-export default About

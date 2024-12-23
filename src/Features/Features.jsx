@@ -19,7 +19,7 @@ function Features() {
   return (
     <>
       <Navbar />
-      <Banner>
+      <Banner backgroundColor={'bg-[#EFF5F6]'}>
         <HeadingWithSubheading
           className="flex flex-col items-center lg:hidden justify-center text-center"
           textAlignment="text-center"
