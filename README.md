@@ -1,70 +1,49 @@
-# Getting Started with Create React App
+# Vaccy – Comprehensive Health Portfolio Platform
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+**Project Type:** Client Work  
+**Client:** Vaccy (Nigeria)  
+**Year:** 2024  
+**Role:** Frontend Developer
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 🏥 About the Project
 
-### `npm start`
+[Vaccy](#) is a Nigerian-based health platform designed to empower users with tools to manage their health proactively. The platform offers features such as vaccine tracking, medication reminders, doctor consultations, health blogs, USSD integration, and access to a comprehensive hospital database.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+---
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+## 💻 Project Overview
 
-### `npm test`
+The objective was to develop a responsive and user-friendly portfolio website for the Vaccy mobile application. The site serves as an informational hub, detailing the app's features and benefits, and guiding users on how to utilize the platform effectively.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## 🛠️ Technologies Used
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **Frontend:** React.js (v18), Context API
+- **Styling:** Tailwind CSS
+- **Routing:** React Router
+- **State Management:** Context API
+- **Deployment:** Netlify
+- **Version Control:** Git & GitHub
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## 🔑 Key Features
 
-### `npm run eject`
+- **Vaccine Tracker:** Allows users to monitor vaccination schedules and receive timely reminders.
+- **Medication Tracker:** Enables users to log medications and set dosage reminders.
+- **Doctor Chat:** Facilitates real-time consultations with healthcare professionals.
+- **Health Blog:** Provides articles and updates on health-related topics.
+- **USSD Integration:** Offers access to services without internet connectivity.
+- **Government Hospital Incorporation:** Lists verified government hospitals for user reference.
+- **Hospital Database:** Comprehensive directory of hospitals with contact information and services offered.
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+##
+![vaccy](https://github.com/user-attachments/assets/58e8c7f5-6810-46f7-ae6b-6862a3ba0df1)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+---
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
