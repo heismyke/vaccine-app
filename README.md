@@ -2,7 +2,7 @@
 
 **Project Type:** Client Work  
 **Client:** Vaccy (Nigeria)  
-**Year:** 2024  
+**Year:** 2025  
 **Role:** Frontend Developer
 
 ---
@@ -25,7 +25,7 @@ The objective was to develop a responsive and user-friendly portfolio website fo
 - **Styling:** Tailwind CSS
 - **Routing:** React Router
 - **State Management:** Context API
-- **Deployment:** Netlify
+- **Deployment:** Vercel
 - **Version Control:** Git & GitHub
 
 ---
